@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="controld" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/controld" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DDEBUG" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/controld" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++0x" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add library="tinyxml" />
+			<Add library="rt" />
+			<Add library="pthread" />
+		</Linker>
+		<Unit filename="config.xml" />
+		<Unit filename="cycle.xml" />
+		<Unit filename="include/Config.h" />
+		<Unit filename="include/Cron.h" />
+		<Unit filename="include/CronDay.h" />
+		<Unit filename="include/CronProgram.h" />
+		<Unit filename="include/Log.h" />
+		<Unit filename="include/Phase.h" />
+		<Unit filename="include/Process.h" />
+		<Unit filename="include/Program.h" />
+		<Unit filename="include/ProgramPhase.h" />
+		<Unit filename="include/Proto.h" />
+		<Unit filename="include/Serial.h" />
+		<Unit filename="include/Server.h" />
+		<Unit filename="include/ShMem.h" />
+		<Unit filename="include/TcpSocketServer.h" />
+		<Unit filename="include/Thread.h" />
+		<Unit filename="include/Timer.h" />
+		<Unit filename="include/Way.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Config.cpp" />
+		<Unit filename="src/Cron.cpp" />
+		<Unit filename="src/CronDay.cpp" />
+		<Unit filename="src/CronProgram.cpp" />
+		<Unit filename="src/Log.cpp" />
+		<Unit filename="src/Phase.cpp" />
+		<Unit filename="src/Process.cpp" />
+		<Unit filename="src/Program.cpp" />
+		<Unit filename="src/ProgramPhase.cpp" />
+		<Unit filename="src/Proto.cpp" />
+		<Unit filename="src/Serial.cpp" />
+		<Unit filename="src/Server.cpp" />
+		<Unit filename="src/ShMem.cpp" />
+		<Unit filename="src/TcpSocketServer.cpp" />
+		<Unit filename="src/Thread.cpp" />
+		<Unit filename="src/Timer.cpp" />
+		<Unit filename="src/Way.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

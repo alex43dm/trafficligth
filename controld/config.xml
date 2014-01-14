@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<root>
+   <user>root</user>
+   <debug>true</debug>
+   <debug_file>/var/log/controld.log</debug_file>
+
+   <mega>
+        <port>/dev/ttyS2</port>
+        <speed>1200</speed>
+    </mega>
+
+    <leds>
+        <port>/dev/ttyS1</port>
+        <speed>115200</speed>
+    </leds>
+
+    <tvp>
+        <mask id="1">0x0100</mask>
+        <mask id="2">0x0100</mask>
+        <mask id="3">0x0100</mask>
+        <mask id="4">0x0100</mask>
+    </tvp>
+
+    <cycle>/home/alex/Projects/trafficligth/controld/cycle.xml</cycle>
+    <addrFrom>2</addrFrom>
+    <addrTo>110</addrTo>
+    <tcpPort>4041</tcpPort>
+    <!--timer in msec -->
+    <timer>200</timer>
+</root>

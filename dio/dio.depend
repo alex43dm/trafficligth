@@ -1,0 +1,86 @@
+# depslib dependency file v1.0
+1389654648 source:/home/alex/Projects/trafficligth/dio/main.cpp
+	"Server.h"
+	"Log.h"
+	"Config.h"
+
+1389653177 /home/alex/Projects/trafficligth/dio/include/Server.h
+	<string>
+
+1389654948 /home/alex/Projects/trafficligth/dio/include/Log.h
+	<stdio.h>
+	<syslog.h>
+	<stdarg.h>
+	<pthread.h>
+
+1389654712 /home/alex/Projects/trafficligth/dio/include/Config.h
+	<string>
+	<tinyxml.h>
+	"Dio.h"
+
+1389654605 /home/alex/Projects/trafficligth/dio/include/Dio.h
+	<string>
+	"Spi.h"
+
+1389653263 /home/alex/Projects/trafficligth/dio/include/Spi.h
+	<string>
+	<linux/spi/spidev.h>
+
+1389655002 source:/home/alex/Projects/trafficligth/dio/src/Config.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+	<stdlib.h>
+	"Config.h"
+	<assert.h>
+
+1389655099 source:/home/alex/Projects/trafficligth/dio/src/Dio.cpp
+	<iostream>
+	<sstream>
+	<ctime>
+	<stdlib.h>
+	<signal.h>
+	<syslog.h>
+	<strings.h>
+	<sys/timerfd.h>
+	<unistd.h>
+	"Dio.h"
+	"Log.h"
+	"ShMem.h"
+	"Config.h"
+
+1389653281 /home/alex/Projects/trafficligth/dio/include/ShMem.h
+	<sys/shm.h>
+
+1389653205 source:/home/alex/Projects/trafficligth/dio/src/Log.cpp
+	"Log.h"
+
+1389653166 source:/home/alex/Projects/trafficligth/dio/src/Server.cpp
+	<fstream>
+	<signal.h>
+	<pwd.h>
+	<syslog.h>
+	<fcntl.h>
+	<dirent.h>
+	<sys/types.h>
+	<unistd.h>
+	<string.h>
+	<sys/stat.h>
+	<math.h>
+	<sys/mman.h>
+	"Server.h"
+
+1389653275 source:/home/alex/Projects/trafficligth/dio/src/ShMem.cpp
+	"ShMem.h"
+	"Log.h"
+
+1389653250 source:/home/alex/Projects/trafficligth/dio/src/Spi.cpp
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	"Spi.h"
+	"Log.h"
+

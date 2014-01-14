@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<root>
+    <mega>
+        <port>/dev/ttyUSB0</port>
+        <speed>115200</speed>
+    </mega>
+    <!--leds>
+        <port>/dev/ttyS1</port>
+        <speed>115200</speed>
+    </leds-->
+    <tvp>
+        <mask id="1">0x1000</mask>
+        <mask id="2">0x08000</mask>
+        <mask id="3">0x4000</mask>
+        <mask id="4">0x8000</mask>
+    </tvp>
+    <cycle>/etc/trafficlight/controld/cycle.xml</cycle>
+    <addrFrom>2</addrFrom>
+    <addrTo>101</addrTo>
+    <tcpPort>4041</tcpPort>
+</root>

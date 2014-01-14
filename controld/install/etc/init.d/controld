@@ -1,0 +1,38 @@
+#!/sbin/runscript
+# Copyright 1999-2013 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+depend() {
+        # the daemon needs the internet to function
+        #need net.eth0
+        #need campullerd  
+        # the daemon should run before mta
+        #before mta
+        # the daemon uses logger
+        #use campullerd
+        # the daemon should run after domainname
+        #after domainname
+        after campullerd
+}
+
+
+start() {
+	ebegin "Starting ${SVCNAME}"
+	start-stop-daemon --start --exec "/usr/bin/controld"
+	eend $?
+}
+
+stop() {
+	ebegin "Stopping ${SVCNAME}"
+	start-stop-daemon --stop --exec "/usr/bin/controld" \
+	    --pidfile "/var/run/controld.pid" --quiet
+	eend $?
+}
+
+reload() {
+	ebegin "Reloading ${SVCNAME}"
+	start-stop-daemon --signal HUP \
+	    --exec "/usr/bin/controld" --pidfile "/var/run/controld.pid"
+	eend $?
+}

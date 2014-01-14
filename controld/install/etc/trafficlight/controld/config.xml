@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<root>
+   <!-- suports debug|info -->
+   <log_level>debug</log_level>
+    <mega>
+        <port>/dev/ttyS3</port>
+        <speed>115200</speed>
+    </mega>
+
+    <leds>
+        <port>/dev/ttyS1</port>
+        <speed>115200</speed>
+    </leds>
+
+    <tvp>
+        <mask id="1">0x0100</mask>
+        <mask id="2">0x0100</mask>
+        <mask id="3">0x0100</mask>
+        <mask id="4">0x0100</mask>
+    </tvp>
+
+    <!-- Max's TVP emulator-->
+    <!--tvp>
+        <mask id="1">0x0200</mask>
+        <mask id="2">0x0400</mask>
+        <mask id="3">0x0800</mask>
+        <mask id="4">0x1000</mask>
+    </tvp-->
+
+    <cycle>/etc/trafficlight/controld/cycle.xml</cycle>
+    <addrFrom>2</addrFrom>
+    <addrTo>101</addrTo>
+    <tcpPort>4041</tcpPort>
+    <!--timer in msec -->
+    <timer>200</timer>
+</root>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<root>
+    <port>/dev/ttyUSB0</port>
+    <speed>115200</speed>
+    <!--cycle>/home/alex/Projects/trafficligth/controld/cycle.xml</cycle-->
+    <addrFrom>2</addrFrom>
+    <addrTo>110</addrTo>
+    <tcpPort>4041</tcpPort>
+</root>

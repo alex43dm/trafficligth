@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<root>
+<spi>
+    <dev>/dev/spidev0.0</dev>
+    <mode>SPI_MODE_1</mode>
+    <speed>1000000</speed>
+    <bitsPerWord>8</bitsPerWord>
+    <period>0.2</period>
+</spi>
+</root>

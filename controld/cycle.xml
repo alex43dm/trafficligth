@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<root>
+
+<cron>
+    <day id="1">
+        <program id="5" startTime="00:00" offset="0"/>
+    </day>
+    <day id="2">
+        <program id="5" startTime="00:00" offset="0" />
+    </day>
+    <day id="3">
+        <program id="5" startTime="00:00" offset="0" />
+    </day>
+    <day id="4">
+        <program id="5" startTime="00:00" offset="0" />
+    </day>
+    <day id="5">
+        <program id="5" startTime="00:00" offset="0" />
+    </day>
+    <day id="6">
+        <program id="5" startTime="00:00" offset="0" />
+    </day>
+    <day id="0">
+        <program id="5" startTime="00:00" offset="0" />
+    </day>
+</cron>
+
+
+<programs>
+    <program id="1" type="local" tvp="1">
+        <phase id="2">21</phase>
+        <phase id="3">26</phase>
+    </program>
+    <program id="2" type="local" tvp="2">
+        <phase id="3">26</phase>
+        <phase id="2">21</phase>
+    </program>
+    <program id="3" type="local" tvp="3">
+        <phase id="2">26</phase>
+    </program>
+    <program id="4" type="local" tvp="4">
+        <phase id="3">26</phase>
+    </program>
+    <program id="5" type="local">
+        <phase id="1">26</phase>
+    </program>
+</programs>
+
+<phases>
+    <phase id="1">
+        <Tmin>12</Tmin>
+        <Tmax>31</Tmax>
+        <tvp>0</tvp>
+        <promtakt>3</promtakt>
+        <road>
+            <way id="1" type="T">1</way>
+            <way id="2" type="T">1</way>
+            <way id="3" type="P">0</way>
+            <way id="4" type="P">0</way>
+        </road>
+    </phase>
+    <phase id="2">
+        <Tmin>20</Tmin>
+        <Tmax>21</Tmax>
+        <tvp>0</tvp>
+        <promtakt>3</promtakt>
+        <road>
+            <way id="1" type="T">0</way>
+            <way id="2" type="T">1</way>
+            <way id="3" type="P">1</way>
+            <way id="4" type="P">0</way>
+        </road>
+    </phase>
+    <phase id="3">
+        <Tmin>20</Tmin>
+        <Tmax>26</Tmax>
+        <tvp>0</tvp>
+        <promtakt>3</promtakt>
+        <road>
+            <way id="1" type="T">1</way>
+            <way id="2" type="T">0</way>
+            <way id="3" type="P">0</way>
+            <way id="4" type="P">1</way>
+        </road>
+    </phase>
+</phases>
+
+</root>

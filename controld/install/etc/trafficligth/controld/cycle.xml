@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<root>
+
+<cron>
+    <day id="1">
+        <program id="1" startTime="07:30" offset="0"/>
+        <program id="2" startTime="20:30" offset="0"/>
+    </day>
+    <day id="2">
+        <program id="1" startTime="07:30" offset="0" />
+        <program id="2" startTime="20:30" offset="0" />
+    </day>
+    <day id="3">
+        <program id="1" startTime="07:30" offset="0" />
+        <program id="2" startTime="20:30" offset="0" />
+    </day>
+    <day id="4">
+        <program id="1" startTime="07:30" offset="0" />
+        <program id="2" startTime="20:30" offset="0" />
+    </day>
+    <day id="5">
+        <program id="1" startTime="07:30" offset="0" />
+        <program id="2" startTime="03:10" offset="0" />
+        <program id="1" startTime="20:30" offset="0" />
+    </day>
+    <day id="6">
+        <program id="2" startTime="00:00" offset="0" />
+    </day>
+    <day id="0">
+        <program id="2" startTime="00:00" offset="0" />
+    </day>
+</cron>
+
+
+<programs>
+    <program id="1" type="local">
+        <phase id="1">29</phase>
+        <phase id="2">24</phase>
+        <phase id="3">27</phase>
+    </program>
+    <program id="2" type="local">
+        <phase id="4">18</phase>
+        <phase id="5">24</phase>
+        <phase id="6">18</phase>
+    </program>
+</programs>
+
+<phases>
+    <phase id="1">
+        <Tmin>13</Tmin>
+        <Tmax>30</Tmax>
+        <tvp>0</tvp>
+        <prompulse>7</prompulse>
+    </phase>
+    <phase id="2">
+        <Tmin>16</Tmin>
+        <Tmax>25</Tmax>
+        <tvp>0</tvp>
+        <prompulse>15</prompulse>
+    </phase>
+    <phase id="3">
+        <Tmin>15</Tmin>
+        <Tmax>20</Tmax>
+        <tvp>0</tvp>
+        <prompulse>8</prompulse>
+    </phase>
+    <phase id="4">
+        <Tmin>12</Tmin>
+        <Tmax>20</Tmax>
+        <tvp>0</tvp>
+        <prompulse>6</prompulse>
+    </phase>
+    <phase id="5">
+        <Tmin>18</Tmin>
+        <Tmax>25</Tmax>
+        <tvp>0</tvp>
+        <prompulse>6</prompulse>
+    </phase>
+    <phase id="6">
+        <Tmin>12</Tmin>
+        <Tmax>20</Tmax>
+        <tvp>0</tvp>
+        <prompulse>6</prompulse>
+    </phase>
+</phases>
+
+</root>

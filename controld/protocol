@@ -1,0 +1,426 @@
+trafficligth00001 controld # bin/Debug/controld 
+send  cmd: 52 1 send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 dio: EFFF
+queue: push: 0 dio:EFFF mask:1000
+led-4: 0:0 1:0 2:0 3:0 
+queue: pop: 0
+selected tvp1
+
+cur phase: 01 way:00
+
+cur phase: 01 way:01
+
+cur phase: 01 way:02
+
+cur phase: 01 way:03
+send  cmd: 4D 1 p:01 c:94-00 p:01:34 dio: FFFF
+led-4: 0:30 1:51 2:33 3:54 
+send  cmd: 4D 1 p:01 c:93-01 p:01:33 led-4: 0:29 1:50 2:32 3:53 
+send  cmd: 4D 1 p:01 c:92-02 p:01:32 led-4: 0:28 1:49 2:31 3:52 
+send  cmd: 4D 1 p:01 c:91-03 p:01:31 dio: F7FF
+queue: push: 1 dio:F7FF mask:800
+led-4: 0:27 1:48 2:30 3:51 
+send  cmd: 4D 1 p:01 c:90-04 p:01:30 led-4: 0:26 1:47 2:29 3:50 
+send  cmd: 4D 1 p:01 c:89-05 p:01:29 led-4: 0:25 1:46 2:28 3:49 
+send  cmd: 4D 1 p:01 c:88-06 p:01:28 dio: FFFF
+led-4: 0:24 1:45 2:27 3:48 
+send  cmd: 4D 1 p:01 c:87-07 p:01:27 dio: FBFF
+queue: push: 2 dio:FBFF mask:400
+led-4: 0:23 1:44 2:26 3:47 
+send  cmd: 4D 1 p:01 c:86-08 p:01:26 dio: FFFF
+led-4: 0:22 1:43 2:25 3:46 
+send  cmd: 4D 1 p:01 c:85-09 p:01:25 led-4: 0:21 1:42 2:24 3:45 
+send  cmd: 4D 1 p:01 c:84-10 p:01:24 led-4: 0:20 1:41 2:23 3:44 
+send  cmd: 4D 1 p:01 c:83-11 p:01:23 led-4: 0:19 1:40 2:22 3:43 
+send  cmd: 4D 1 p:01 c:82-12 p:01:22 led-4: 0:18 1:39 2:21 3:42 
+send  cmd: 4D 1 p:01 c:81-13 p:01:21 led-4: 0:17 1:38 2:20 3:41 
+send  cmd: 4D 1 p:01 c:80-14 p:01:20 led-4: 0:16 1:37 2:19 3:40 
+send  cmd: 4D 1 p:01 c:79-15 p:01:19 led-4: 0:15 1:36 2:18 3:39 
+send  cmd: 4D 1 p:01 c:78-16 p:01:18 led-4: 0:14 1:35 2:17 3:38 
+send  cmd: 4D 1 p:01 c:77-17 p:01:17 led-4: 0:13 1:34 2:16 3:37 
+send  cmd: 4D 1 p:01 c:76-18 p:01:16 led-4: 0:12 1:33 2:15 3:36 
+send  cmd: 4D 1 p:01 c:75-19 p:01:15 led-4: 0:11 1:32 2:14 3:35 
+send  cmd: 4D 1 p:01 c:74-20 p:01:14 led-4: 0:10 1:31 2:13 3:34 
+send  cmd: 4D 1 p:01 c:73-21 p:01:13 led-4: 0:9 1:30 2:12 3:33 
+send  cmd: 4D 1 p:01 c:72-22 p:01:12 led-4: 0:8 1:29 2:11 3:32 
+send  cmd: 4D 1 p:01 c:71-23 p:01:11 led-4: 0:7 1:28 2:10 3:31 
+send  cmd: 4D 1 p:01 c:70-24 p:01:10 led-4: 0:6 1:27 2:9 3:30 
+send  cmd: 4D 1 p:01 c:69-25 p:01:09 led-4: 0:5 1:26 2:8 3:29 
+send  cmd: 4D 1 p:01 c:68-26 p:01:08 led-4: 0:4 1:25 2:7 3:28 
+send  cmd: 4D 1 p:01 c:67-27 p:01:07 led-4: 0:3 1:24 2:6 3:27 
+send  cmd: 4D 2 p:01 c:66-28 p:01:06 led-4: 0:2 1:23 2:5 3:26 
+send  cmd: 4D 2 p:01 c:65-29 p:01:05 led-4: 0:1 1:22 2:4 3:25 
+send  cmd: 4D 2 p:01 c:64-30 p:01:04 led-4: 0:0 1:21 2:3 3:24 
+
+cur phase: 02 way:00
+
+cur phase: 02 way:01
+
+cur phase: 02 way:02
+
+cur phase: 02 way:03
+send  cmd: 4D 2 p:01 c:63-31 p:02:24 led-4: 0:20 1:20 2:20 3:23 
+send  cmd: 4D 2 p:01 c:62-32 p:02:23 led-4: 0:19 1:19 2:19 3:22 
+send  cmd: 4D 2 p:01 c:61-33 p:02:22 led-4: 0:18 1:18 2:18 3:21 
+send  cmd: 4D 2 p:01 c:60-34 p:02:21 led-4: 0:17 1:17 2:17 3:20 
+send  cmd: 4D 2 p:01 c:59-35 p:02:20 led-4: 0:16 1:16 2:16 3:19 
+send  cmd: 4D 2 p:01 c:58-36 p:02:19 led-4: 0:15 1:15 2:15 3:18 
+send  cmd: 4D 2 p:01 c:57-37 p:02:18 led-4: 0:14 1:14 2:14 3:17 
+send  cmd: 4D 2 p:01 c:56-38 p:02:17 led-4: 0:13 1:13 2:13 3:16 
+send  cmd: 4D 2 p:01 c:55-39 p:02:16 led-4: 0:12 1:12 2:12 3:15 
+send  cmd: 4D 2 p:01 c:54-40 p:02:15 led-4: 0:11 1:11 2:11 3:14 
+send  cmd: 4D 2 p:01 c:53-41 p:02:14 led-4: 0:10 1:10 2:10 3:13 
+send  cmd: 4D 2 p:01 c:52-42 p:02:13 led-4: 0:9 1:9 2:9 3:12 
+send  cmd: 4D 2 p:01 c:51-43 p:02:12 led-4: 0:8 1:8 2:8 3:11 
+send  cmd: 4D 2 p:01 c:50-44 p:02:11 led-4: 0:7 1:7 2:7 3:10 
+send  cmd: 4D 2 p:01 c:49-45 p:02:10 led-4: 0:6 1:6 2:6 3:9 
+send  cmd: 4D 2 p:01 c:48-46 p:02:09 led-4: 0:5 1:5 2:5 3:8 
+send  cmd: 4D 2 p:01 c:47-47 p:02:08 led-4: 0:4 1:4 2:4 3:7 
+send  cmd: 4D 2 p:01 c:46-48 p:02:07 led-4: 0:3 1:3 2:3 3:6 
+send  cmd: 4D 2 p:01 c:45-49 p:02:06 led-4: 0:2 1:2 2:2 3:5 
+send  cmd: 4D 2 p:01 c:44-50 p:02:05 led-4: 0:1 1:1 2:1 3:4 
+send  cmd: 4D 2 p:01 c:43-51 p:02:04 led-4: 0:0 1:0 2:0 3:3 
+send  cmd: 4D 3 p:01 c:42-52 p:02:03 led-4: 0:0 1:0 2:0 3:2 
+send  cmd: 4D 3 p:01 c:41-53 p:02:02 led-4: 0:0 1:0 2:0 3:1 
+send  cmd: 4D 3 p:01 c:40-54 p:02:01 led-4: 0:0 1:0 2:0 3:0 
+
+cur phase: 03 way:00
+
+cur phase: 03 way:01
+
+cur phase: 03 way:02
+
+cur phase: 03 way:03
+send  cmd: 4D 3 p:01 c:39-55 p:03:29 led-4: 0:0 1:25 2:0 3:25 
+send  cmd: 4D 3 p:01 c:38-56 p:03:28 led-4: 0:0 1:24 2:0 3:24 
+send  cmd: 4D 3 p:01 c:37-57 p:03:27 led-4: 0:0 1:23 2:0 3:23 
+send  cmd: 4D 3 p:01 c:36-58 p:03:26 led-4: 0:0 1:22 2:0 3:22 
+send  cmd: 4D 3 p:01 c:35-59 p:03:25 led-4: 0:0 1:21 2:0 3:21 
+send  cmd: 4D 3 p:01 c:34-60 p:03:24 led-4: 0:0 1:20 2:0 3:20 
+send  cmd: 4D 3 p:01 c:33-61 p:03:23 led-4: 0:0 1:19 2:0 3:19 
+send  cmd: 4D 3 p:01 c:32-62 p:03:22 led-4: 0:0 1:18 2:0 3:18 
+send  cmd: 4D 3 p:01 c:31-63 p:03:21 led-4: 0:0 1:17 2:0 3:17 
+send  cmd: 4D 3 p:01 c:30-64 p:03:20 led-4: 0:0 1:16 2:0 3:16 
+send  cmd: 4D 3 p:01 c:29-65 p:03:19 led-4: 0:0 1:15 2:0 3:15 
+send  cmd: 4D 3 p:01 c:28-66 p:03:18 led-4: 0:0 1:14 2:0 3:14 
+send  cmd: 4D 3 p:01 c:27-67 p:03:17 led-4: 0:0 1:13 2:0 3:13 
+send  cmd: 4D 3 p:01 c:26-68 p:03:16 led-4: 0:0 1:12 2:0 3:12 
+send  cmd: 4D 3 p:01 c:25-69 p:03:15 led-4: 0:0 1:11 2:0 3:11 
+send  cmd: 4D 3 p:01 c:24-70 p:03:14 led-4: 0:0 1:10 2:0 3:10 
+send  cmd: 4D 3 p:01 c:23-71 p:03:13 led-4: 0:0 1:9 2:0 3:9 
+send  cmd: 4D 3 p:01 c:22-72 p:03:12 led-4: 0:0 1:8 2:0 3:8 
+send  cmd: 4D 3 p:01 c:21-73 p:03:11 led-4: 0:0 1:7 2:0 3:7 
+send  cmd: 4D 3 p:01 c:20-74 p:03:10 led-4: 0:0 1:6 2:0 3:6 
+send  cmd: 4D 3 p:01 c:19-75 p:03:09 led-4: 0:0 1:5 2:0 3:5 
+send  cmd: 4D 3 p:01 c:18-76 p:03:08 led-4: 0:0 1:4 2:0 3:4 
+send  cmd: 4D 3 p:01 c:17-77 p:03:07 led-4: 0:0 1:3 2:0 3:3 
+send  cmd: 4D 3 p:01 c:16-78 p:03:06 led-4: 0:0 1:2 2:0 3:2 
+send  cmd: 4D 3 p:01 c:15-79 p:03:05 led-4: 0:0 1:1 2:0 3:1 
+send  cmd: 4D 3 p:01 c:14-80 p:03:04 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:01 c:13-81 p:03:03 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:01 c:12-82 p:03:02 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:01 c:11-83 p:03:01 led-4: 0:0 1:0 2:0 3:0 
+
+cur phase: 01 way:00
+
+cur phase: 01 way:01
+
+cur phase: 01 way:02
+
+cur phase: 01 way:03
+send  cmd: 4D 1 p:01 c:10-84 p:01:19 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:01 c:09-85 p:01:18 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:01 c:08-86 p:01:17 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:01 c:07-87 p:01:16 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:01 c:06-88 p:01:15 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:01 c:05-89 p:01:14 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:01 c:04-90 p:01:13 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:01 c:03-91 p:01:12 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:01 c:02-92 p:01:11 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:01 c:01-93 p:01:10 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:01 c:00-94 p:01:09 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:01 c:-1-95 p:01:08 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:01 c:-2-96 p:01:07 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:01 c:-3-97 p:01:06 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:01 c:-4-98 p:01:05 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:01 c:-5-99 p:01:04 led-4: 0:0 1:0 2:0 3:0 
+led-4: 0:0 1:0 2:0 3:0 
+queue: pop: 1
+selected tvp2
+
+cur phase: 01 way:00
+
+cur phase: 01 way:01
+
+cur phase: 01 way:02
+
+cur phase: 01 way:03
+send  cmd: 4D 1 p:02 c:90-00 p:01:34 led-4: 0:56 1:30 2:59 3:33 
+send  cmd: 4D 1 p:02 c:89-01 p:01:33 led-4: 0:55 1:29 2:58 3:32 
+send  cmd: 4D 1 p:02 c:88-02 p:01:32 led-4: 0:54 1:28 2:57 3:31 
+send  cmd: 4D 1 p:02 c:87-03 p:01:31 led-4: 0:53 1:27 2:56 3:30 
+send  cmd: 4D 1 p:02 c:86-04 p:01:30 led-4: 0:52 1:26 2:55 3:29 
+send  cmd: 4D 1 p:02 c:85-05 p:01:29 led-4: 0:51 1:25 2:54 3:28 
+send  cmd: 4D 1 p:02 c:84-06 p:01:28 led-4: 0:50 1:24 2:53 3:27 
+send  cmd: 4D 1 p:02 c:83-07 p:01:27 led-4: 0:49 1:23 2:52 3:26 
+send  cmd: 4D 1 p:02 c:82-08 p:01:26 led-4: 0:48 1:22 2:51 3:25 
+send  cmd: 4D 1 p:02 c:81-09 p:01:25 led-4: 0:47 1:21 2:50 3:24 
+send  cmd: 4D 1 p:02 c:80-10 p:01:24 led-4: 0:46 1:20 2:49 3:23 
+send  cmd: 4D 1 p:02 c:79-11 p:01:23 led-4: 0:45 1:19 2:48 3:22 
+send  cmd: 4D 1 p:02 c:78-12 p:01:22 led-4: 0:44 1:18 2:47 3:21 
+send  cmd: 4D 1 p:02 c:77-13 p:01:21 led-4: 0:43 1:17 2:46 3:20 
+send  cmd: 4D 1 p:02 c:76-14 p:01:20 led-4: 0:42 1:16 2:45 3:19 
+send  cmd: 4D 1 p:02 c:75-15 p:01:19 led-4: 0:41 1:15 2:44 3:18 
+send  cmd: 4D 1 p:02 c:74-16 p:01:18 led-4: 0:40 1:14 2:43 3:17 
+send  cmd: 4D 1 p:02 c:73-17 p:01:17 led-4: 0:39 1:13 2:42 3:16 
+send  cmd: 4D 1 p:02 c:72-18 p:01:16 led-4: 0:38 1:12 2:41 3:15 
+send  cmd: 4D 1 p:02 c:71-19 p:01:15 led-4: 0:37 1:11 2:40 3:14 
+send  cmd: 4D 1 p:02 c:70-20 p:01:14 led-4: 0:36 1:10 2:39 3:13 
+send  cmd: 4D 1 p:02 c:69-21 p:01:13 led-4: 0:35 1:9 2:38 3:12 
+send  cmd: 4D 1 p:02 c:68-22 p:01:12 led-4: 0:34 1:8 2:37 3:11 
+send  cmd: 4D 1 p:02 c:67-23 p:01:11 led-4: 0:33 1:7 2:36 3:10 
+send  cmd: 4D 1 p:02 c:66-24 p:01:10 led-4: 0:32 1:6 2:35 3:9 
+send  cmd: 4D 1 p:02 c:65-25 p:01:09 led-4: 0:31 1:5 2:34 3:8 
+send  cmd: 4D 1 p:02 c:64-26 p:01:08 led-4: 0:30 1:4 2:33 3:7 
+send  cmd: 4D 1 p:02 c:63-27 p:01:07 led-4: 0:29 1:3 2:32 3:6 
+send  cmd: 4D 3 p:02 c:62-28 p:01:06 led-4: 0:28 1:2 2:31 3:5 
+send  cmd: 4D 3 p:02 c:61-29 p:01:05 led-4: 0:27 1:1 2:30 3:4 
+send  cmd: 4D 3 p:02 c:60-30 p:01:04 led-4: 0:26 1:0 2:29 3:3 
+
+cur phase: 03 way:00
+
+cur phase: 03 way:01
+
+cur phase: 03 way:02
+
+cur phase: 03 way:03
+send  cmd: 4D 3 p:02 c:59-31 p:03:29 led-4: 0:25 1:25 2:28 3:25 
+send  cmd: 4D 3 p:02 c:58-32 p:03:28 led-4: 0:24 1:24 2:27 3:24 
+send  cmd: 4D 3 p:02 c:57-33 p:03:27 led-4: 0:23 1:23 2:26 3:23 
+send  cmd: 4D 3 p:02 c:56-34 p:03:26 led-4: 0:22 1:22 2:25 3:22 
+send  cmd: 4D 3 p:02 c:55-35 p:03:25 led-4: 0:21 1:21 2:24 3:21 
+send  cmd: 4D 3 p:02 c:54-36 p:03:24 led-4: 0:20 1:20 2:23 3:20 
+send  cmd: 4D 3 p:02 c:53-37 p:03:23 led-4: 0:19 1:19 2:22 3:19 
+send  cmd: 4D 3 p:02 c:52-38 p:03:22 led-4: 0:18 1:18 2:21 3:18 
+send  cmd: 4D 3 p:02 c:51-39 p:03:21 led-4: 0:17 1:17 2:20 3:17 
+send  cmd: 4D 3 p:02 c:50-40 p:03:20 led-4: 0:16 1:16 2:19 3:16 
+send  cmd: 4D 3 p:02 c:49-41 p:03:19 led-4: 0:15 1:15 2:18 3:15 
+send  cmd: 4D 3 p:02 c:48-42 p:03:18 led-4: 0:14 1:14 2:17 3:14 
+send  cmd: 4D 3 p:02 c:47-43 p:03:17 led-4: 0:13 1:13 2:16 3:13 
+send  cmd: 4D 3 p:02 c:46-44 p:03:16 led-4: 0:12 1:12 2:15 3:12 
+send  cmd: 4D 3 p:02 c:45-45 p:03:15 led-4: 0:11 1:11 2:14 3:11 
+send  cmd: 4D 3 p:02 c:44-46 p:03:14 led-4: 0:10 1:10 2:13 3:10 
+send  cmd: 4D 3 p:02 c:43-47 p:03:13 led-4: 0:9 1:9 2:12 3:9 
+send  cmd: 4D 3 p:02 c:42-48 p:03:12 led-4: 0:8 1:8 2:11 3:8 
+send  cmd: 4D 3 p:02 c:41-49 p:03:11 led-4: 0:7 1:7 2:10 3:7 
+send  cmd: 4D 3 p:02 c:40-50 p:03:10 led-4: 0:6 1:6 2:9 3:6 
+send  cmd: 4D 3 p:02 c:39-51 p:03:09 led-4: 0:5 1:5 2:8 3:5 
+send  cmd: 4D 3 p:02 c:38-52 p:03:08 led-4: 0:4 1:4 2:7 3:4 
+send  cmd: 4D 3 p:02 c:37-53 p:03:07 led-4: 0:3 1:3 2:6 3:3 
+send  cmd: 4D 3 p:02 c:36-54 p:03:06 led-4: 0:2 1:2 2:5 3:2 
+send  cmd: 4D 3 p:02 c:35-55 p:03:05 led-4: 0:1 1:1 2:4 3:1 
+send  cmd: 4D 3 p:02 c:34-56 p:03:04 led-4: 0:0 1:0 2:3 3:0 
+send  cmd: 4D 2 p:02 c:33-57 p:03:03 led-4: 0:0 1:0 2:2 3:0 
+send  cmd: 4D 2 p:02 c:32-58 p:03:02 led-4: 0:0 1:0 2:1 3:0 
+send  cmd: 4D 2 p:02 c:31-59 p:03:01 led-4: 0:0 1:0 2:0 3:0 
+
+cur phase: 02 way:00
+
+cur phase: 02 way:01
+
+cur phase: 02 way:02
+
+cur phase: 02 way:03
+send  cmd: 4D 2 p:02 c:30-60 p:02:24 led-4: 0:20 1:0 2:20 3:0 
+send  cmd: 4D 2 p:02 c:29-61 p:02:23 led-4: 0:19 1:0 2:19 3:0 
+send  cmd: 4D 2 p:02 c:28-62 p:02:22 led-4: 0:18 1:0 2:18 3:0 
+send  cmd: 4D 2 p:02 c:27-63 p:02:21 led-4: 0:17 1:0 2:17 3:0 
+send  cmd: 4D 2 p:02 c:26-64 p:02:20 led-4: 0:16 1:0 2:16 3:0 
+send  cmd: 4D 2 p:02 c:25-65 p:02:19 led-4: 0:15 1:0 2:15 3:0 
+send  cmd: 4D 2 p:02 c:24-66 p:02:18 led-4: 0:14 1:0 2:14 3:0 
+send  cmd: 4D 2 p:02 c:23-67 p:02:17 led-4: 0:13 1:0 2:13 3:0 
+send  cmd: 4D 2 p:02 c:22-68 p:02:16 led-4: 0:12 1:0 2:12 3:0 
+send  cmd: 4D 2 p:02 c:21-69 p:02:15 led-4: 0:11 1:0 2:11 3:0 
+send  cmd: 4D 2 p:02 c:20-70 p:02:14 led-4: 0:10 1:0 2:10 3:0 
+send  cmd: 4D 2 p:02 c:19-71 p:02:13 led-4: 0:9 1:0 2:9 3:0 
+send  cmd: 4D 2 p:02 c:18-72 p:02:12 led-4: 0:8 1:0 2:8 3:0 
+send  cmd: 4D 2 p:02 c:17-73 p:02:11 led-4: 0:7 1:0 2:7 3:0 
+send  cmd: 4D 2 p:02 c:16-74 p:02:10 led-4: 0:6 1:0 2:6 3:0 
+send  cmd: 4D 2 p:02 c:15-75 p:02:09 led-4: 0:5 1:0 2:5 3:0 
+send  cmd: 4D 2 p:02 c:14-76 p:02:08 led-4: 0:4 1:0 2:4 3:0 
+send  cmd: 4D 2 p:02 c:13-77 p:02:07 led-4: 0:3 1:0 2:3 3:0 
+send  cmd: 4D 2 p:02 c:12-78 p:02:06 led-4: 0:2 1:0 2:2 3:0 
+send  cmd: 4D 2 p:02 c:11-79 p:02:05 led-4: 0:1 1:0 2:1 3:0 
+send  cmd: 4D 2 p:02 c:10-80 p:02:04 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:02 c:09-81 p:02:03 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:02 c:08-82 p:02:02 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:02 c:07-83 p:02:01 led-4: 0:0 1:0 2:0 3:0 
+
+cur phase: 01 way:00
+
+cur phase: 01 way:01
+
+cur phase: 01 way:02
+
+cur phase: 01 way:03
+send  cmd: 4D 1 p:02 c:06-84 p:01:15 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:02 c:05-85 p:01:14 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:02 c:04-86 p:01:13 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:02 c:03-87 p:01:12 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:02 c:02-88 p:01:11 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:02 c:01-89 p:01:10 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:02 c:00-90 p:01:09 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:02 c:-1-91 p:01:08 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:02 c:-2-92 p:01:07 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:02 c:-3-93 p:01:06 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:02 c:-4-94 p:01:05 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:02 c:-5-95 p:01:04 led-4: 0:0 1:0 2:0 3:0 
+led-4: 0:0 1:0 2:0 3:0 
+queue: pop: 2
+selected tvp3
+
+cur phase: 01 way:00
+
+cur phase: 01 way:01
+
+cur phase: 01 way:02
+
+cur phase: 01 way:03
+send  cmd: 4D 1 p:03 c:70-00 p:01:34 led-4: 0:30 1:0 2:33 3:0 
+send  cmd: 4D 1 p:03 c:69-01 p:01:33 led-4: 0:29 1:0 2:32 3:0 
+send  cmd: 4D 1 p:03 c:68-02 p:01:32 led-4: 0:28 1:0 2:31 3:0 
+send  cmd: 4D 1 p:03 c:67-03 p:01:31 led-4: 0:27 1:0 2:30 3:0 
+send  cmd: 4D 1 p:03 c:66-04 p:01:30 led-4: 0:26 1:0 2:29 3:0 
+send  cmd: 4D 1 p:03 c:65-05 p:01:29 led-4: 0:25 1:0 2:28 3:0 
+send  cmd: 4D 1 p:03 c:64-06 p:01:28 led-4: 0:24 1:0 2:27 3:0 
+send  cmd: 4D 1 p:03 c:63-07 p:01:27 led-4: 0:23 1:0 2:26 3:0 
+send  cmd: 4D 1 p:03 c:62-08 p:01:26 led-4: 0:22 1:0 2:25 3:0 
+send  cmd: 4D 1 p:03 c:61-09 p:01:25 led-4: 0:21 1:0 2:24 3:0 
+send  cmd: 4D 1 p:03 c:60-10 p:01:24 led-4: 0:20 1:0 2:23 3:0 
+send  cmd: 4D 1 p:03 c:59-11 p:01:23 led-4: 0:19 1:0 2:22 3:0 
+send  cmd: 4D 1 p:03 c:58-12 p:01:22 led-4: 0:18 1:0 2:21 3:0 
+send  cmd: 4D 1 p:03 c:57-13 p:01:21 led-4: 0:17 1:0 2:20 3:0 
+send  cmd: 4D 1 p:03 c:56-14 p:01:20 led-4: 0:16 1:0 2:19 3:0 
+send  cmd: 4D 1 p:03 c:55-15 p:01:19 led-4: 0:15 1:0 2:18 3:0 
+send  cmd: 4D 1 p:03 c:54-16 p:01:18 led-4: 0:14 1:0 2:17 3:0 
+send  cmd: 4D 1 p:03 c:53-17 p:01:17 led-4: 0:13 1:0 2:16 3:0 
+send  cmd: 4D 1 p:03 c:52-18 p:01:16 led-4: 0:12 1:0 2:15 3:0 
+send  cmd: 4D 1 p:03 c:51-19 p:01:15 led-4: 0:11 1:0 2:14 3:0 
+send  cmd: 4D 1 p:03 c:50-20 p:01:14 led-4: 0:10 1:0 2:13 3:0 
+send  cmd: 4D 1 p:03 c:49-21 p:01:13 led-4: 0:9 1:0 2:12 3:0 
+send  cmd: 4D 1 p:03 c:48-22 p:01:12 led-4: 0:8 1:0 2:11 3:0 
+send  cmd: 4D 1 p:03 c:47-23 p:01:11 led-4: 0:7 1:0 2:10 3:0 
+send  cmd: 4D 1 p:03 c:46-24 p:01:10 led-4: 0:6 1:0 2:9 3:0 
+send  cmd: 4D 1 p:03 c:45-25 p:01:09 led-4: 0:5 1:0 2:8 3:0 
+send  cmd: 4D 1 p:03 c:44-26 p:01:08 led-4: 0:4 1:0 2:7 3:0 
+send  cmd: 4D 1 p:03 c:43-27 p:01:07 led-4: 0:3 1:0 2:6 3:0 
+send  cmd: 4D 2 p:03 c:42-28 p:01:06 led-4: 0:2 1:0 2:5 3:0 
+send  cmd: 4D 2 p:03 c:41-29 p:01:05 led-4: 0:1 1:0 2:4 3:0 
+send  cmd: 4D 2 p:03 c:40-30 p:01:04 led-4: 0:0 1:0 2:3 3:0 
+
+cur phase: 02 way:00
+
+cur phase: 02 way:01
+
+cur phase: 02 way:02
+
+cur phase: 02 way:03
+send  cmd: 4D 2 p:03 c:39-31 p:02:29 led-4: 0:25 1:0 2:25 3:0 
+send  cmd: 4D 2 p:03 c:38-32 p:02:28 led-4: 0:24 1:0 2:24 3:0 
+send  cmd: 4D 2 p:03 c:37-33 p:02:27 led-4: 0:23 1:0 2:23 3:0 
+send  cmd: 4D 2 p:03 c:36-34 p:02:26 led-4: 0:22 1:0 2:22 3:0 
+send  cmd: 4D 2 p:03 c:35-35 p:02:25 led-4: 0:21 1:0 2:21 3:0 
+send  cmd: 4D 2 p:03 c:34-36 p:02:24 led-4: 0:20 1:0 2:20 3:0 
+send  cmd: 4D 2 p:03 c:33-37 p:02:23 led-4: 0:19 1:0 2:19 3:0 
+send  cmd: 4D 2 p:03 c:32-38 p:02:22 led-4: 0:18 1:0 2:18 3:0 
+send  cmd: 4D 2 p:03 c:31-39 p:02:21 led-4: 0:17 1:0 2:17 3:0 
+send  cmd: 4D 2 p:03 c:30-40 p:02:20 led-4: 0:16 1:0 2:16 3:0 
+send  cmd: 4D 2 p:03 c:29-41 p:02:19 led-4: 0:15 1:0 2:15 3:0 
+send  cmd: 4D 2 p:03 c:28-42 p:02:18 led-4: 0:14 1:0 2:14 3:0 
+send  cmd: 4D 2 p:03 c:27-43 p:02:17 led-4: 0:13 1:0 2:13 3:0 
+send  cmd: 4D 2 p:03 c:26-44 p:02:16 led-4: 0:12 1:0 2:12 3:0 
+send  cmd: 4D 2 p:03 c:25-45 p:02:15 led-4: 0:11 1:0 2:11 3:0 
+send  cmd: 4D 2 p:03 c:24-46 p:02:14 led-4: 0:10 1:0 2:10 3:0 
+send  cmd: 4D 2 p:03 c:23-47 p:02:13 led-4: 0:9 1:0 2:9 3:0 
+send  cmd: 4D 2 p:03 c:22-48 p:02:12 led-4: 0:8 1:0 2:8 3:0 
+send  cmd: 4D 2 p:03 c:21-49 p:02:11 led-4: 0:7 1:0 2:7 3:0 
+send  cmd: 4D 2 p:03 c:20-50 p:02:10 led-4: 0:6 1:0 2:6 3:0 
+send  cmd: 4D 2 p:03 c:19-51 p:02:09 led-4: 0:5 1:0 2:5 3:0 
+send  cmd: 4D 2 p:03 c:18-52 p:02:08 led-4: 0:4 1:0 2:4 3:0 
+send  cmd: 4D 2 p:03 c:17-53 p:02:07 led-4: 0:3 1:0 2:3 3:0 
+send  cmd: 4D 2 p:03 c:16-54 p:02:06 led-4: 0:2 1:0 2:2 3:0 
+send  cmd: 4D 2 p:03 c:15-55 p:02:05 led-4: 0:1 1:0 2:1 3:0 
+send  cmd: 4D 2 p:03 c:14-56 p:02:04 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:03 c:13-57 p:02:03 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:03 c:12-58 p:02:02 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:03 c:11-59 p:02:01 led-4: 0:0 1:0 2:0 3:0 
+
+cur phase: 01 way:00
+
+cur phase: 01 way:01
+
+cur phase: 01 way:02
+
+cur phase: 01 way:03
+send  cmd: 4D 1 p:03 c:10-60 p:01:16 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:03 c:09-61 p:01:15 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:03 c:08-62 p:01:14 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:03 c:07-63 p:01:13 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:03 c:06-64 p:01:12 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:03 c:05-65 p:01:11 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:03 c:04-66 p:01:10 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:03 c:03-67 p:01:09 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:03 c:02-68 p:01:08 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:03 c:01-69 p:01:07 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:03 c:00-70 p:01:06 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:03 c:-1-71 p:01:05 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 p:03 c:-2-72 p:01:04 led-4: 0:0 1:0 2:0 3:0 
+led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+send  cmd: 4D 1 led-4: 0:0 1:0 2:0 3:0 
+

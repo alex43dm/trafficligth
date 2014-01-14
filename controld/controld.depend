@@ -1,0 +1,218 @@
+# depslib dependency file v1.0
+1389561053 source:/home/alex/Projects/trafficligth/controld/main.cpp
+	"Process.h"
+	"Server.h"
+	"Log.h"
+	"Config.h"
+
+1389637408 source:/home/alex/Projects/trafficligth/controld/src/Config.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+	<stdlib.h>
+	"Config.h"
+	"Way.h"
+	<assert.h>
+
+1389637281 /home/alex/Projects/trafficligth/controld/include/Config.h
+	<string>
+	<vector>
+	<array>
+	<map>
+	<tinyxml.h>
+	"Phase.h"
+	"Program.h"
+	"CronDay.h"
+
+1389570841 source:/home/alex/Projects/trafficligth/controld/src/Cron.cpp
+	<stdio.h>
+	"Cron.h"
+	"Log.h"
+	"Config.h"
+
+1389565489 /home/alex/Projects/trafficligth/controld/include/Cron.h
+	<array>
+	"CronDay.h"
+	"Program.h"
+
+1383288309 source:/home/alex/Projects/trafficligth/controld/src/CronDay.cpp
+	<algorithm>
+	"CronDay.h"
+
+1382363827 /home/alex/Projects/trafficligth/controld/include/CronDay.h
+	"CronProgram.h"
+	<vector>
+
+1382365903 source:/home/alex/Projects/trafficligth/controld/src/CronProgram.cpp
+	<strings.h>
+	"CronProgram.h"
+
+1382019377 /home/alex/Projects/trafficligth/controld/include/CronProgram.h
+	<time.h>
+
+1389633368 /home/alex/Projects/trafficligth/controld/include/Program.h
+	<vector>
+	"ProgramPhase.h"
+	"Phase.h"
+
+1389636645 /home/alex/Projects/trafficligth/controld/include/Phase.h
+	<vector>
+	"Way.h"
+
+1389636626 source:/home/alex/Projects/trafficligth/controld/src/Phase.cpp
+	"Phase.h"
+
+1387842354 source:/home/alex/Projects/trafficligth/controld/src/Program.cpp
+	"Program.h"
+	"Log.h"
+	"Phase.h"
+	"Process.h"
+
+1389561053 /home/alex/Projects/trafficligth/controld/include/Log.h
+	<stdio.h>
+	<syslog.h>
+	<stdarg.h>
+	<pthread.h>
+
+1389561053 source:/home/alex/Projects/trafficligth/controld/src/Log.cpp
+	"Log.h"
+
+1389561053 /home/alex/Projects/trafficligth/controld/include/ProgramPhase.h
+	"Phase.h"
+
+1389561053 source:/home/alex/Projects/trafficligth/controld/src/ProgramPhase.cpp
+	<stdio.h>
+	"ProgramPhase.h"
+
+1386274283 /home/alex/Projects/trafficligth/controld/include/Serial.h
+	<string>
+	<termios.h>
+
+1387227953 source:/home/alex/Projects/trafficligth/controld/src/Serial.cpp
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<string.h>
+	<unistd.h>
+	<sys/time.h>
+	<sys/types.h>
+	<sys/poll.h>
+	<unistd.h>
+	<stdio.h>
+	"Serial.h"
+	"Log.h"
+
+1383292959 source:/home/alex/Projects/trafficligth/controld/src/Timer.cpp
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	"Timer.h"
+
+1389561651 /home/alex/Projects/trafficligth/controld/include/Timer.h
+	<signal.h>
+	<time.h>
+
+1382965389 source:/home/alex/Projects/trafficligth/controld/src/UnixSocketServer.cpp
+	<unistd.h>
+	"Log.h"
+	"UnixSocketServer.h"
+
+1382708309 /home/alex/Projects/trafficligth/controld/include/UnixSocketServer.h
+	"Serial.h"
+	<string>
+	<sys/socket.h>
+	<sys/un.h>
+	<sys/types.h>
+
+1389630478 /home/alex/Projects/trafficligth/controld/include/Process.h
+	<queue>
+	"Config.h"
+	"Timer.h"
+	"Cron.h"
+	"Proto.h"
+	"Serial.h"
+	"TcpSocketServer.h"
+	"ShMem.h"
+
+1387843792 source:/home/alex/Projects/trafficligth/controld/src/Process.cpp
+	<unistd.h>
+	"Log.h"
+	"Serial.h"
+	"Process.h"
+	"TcpSocketServer.h"
+	"Config.h"
+
+1387227936 source:/home/alex/Projects/trafficligth/controld/src/Proto.cpp
+	<stdlib.h>
+	<strings.h>
+	"Proto.h"
+
+1386109684 /home/alex/Projects/trafficligth/controld/include/Proto.h
+	<string>
+
+1384452851 source:/home/alex/Projects/trafficligth/controld/src/TcpSocketServer.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<errno.h>
+	"TcpSocketServer.h"
+	"Log.h"
+
+1384439873 /home/alex/Projects/trafficligth/controld/include/TcpSocketServer.h
+	<string>
+	"Thread.h"
+
+1387450823 source:/home/alex/Projects/trafficligth/controld/src/Server.cpp
+	<fstream>
+	<signal.h>
+	<pwd.h>
+	<syslog.h>
+	<fcntl.h>
+	<dirent.h>
+	<sys/types.h>
+	<unistd.h>
+	<string.h>
+	<sys/stat.h>
+	<math.h>
+	<sys/mman.h>
+	"Server.h"
+
+1387450434 /home/alex/Projects/trafficligth/controld/include/Server.h
+	<string>
+
+1384439820 /home/alex/Projects/trafficligth/controld/include/Thread.h
+	<pthread.h>
+
+1384440913 source:/home/alex/Projects/trafficligth/controld/src/Thread.cpp
+	<unistd.h>
+	<stdlib.h>
+	"Thread.h"
+
+1387439976 source:/home/alex/Projects/trafficligth/controld/src/TimerFD.cpp
+	<strings.h>
+	<unistd.h>
+	"TimerFD.h"
+	"Config.h"
+
+1387827226 /home/alex/Projects/trafficligth/controld/include/TimerFD.h
+	<sys/timerfd.h>
+
+1385917047 /home/alex/Projects/trafficligth/controld/include/ShMem.h
+	<sys/shm.h>
+
+1385917057 source:/home/alex/Projects/trafficligth/controld/src/ShMem.cpp
+	"ShMem.h"
+	"Log.h"
+
+1387924276 /home/alex/Projects/trafficligth/controld/include/Way.h
+
+1387824716 source:/home/alex/Projects/trafficligth/controld/src/Way.cpp
+	"Way.h"
+
